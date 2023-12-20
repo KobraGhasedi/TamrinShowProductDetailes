@@ -1,0 +1,32 @@
+.dvContainerDetails{
+    width: 500px;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 357px;
+}
+.dvimageDetails{
+    width: 200px;
+}
+.dvimageDetails img{
+    width: 100%;
+    height: auto;
+}
+.dvProductNameDetails{
+
+}
+.dvProductNameDetails p{
+    font-size: 19px;
+    font-weight: 500;
+    color: #52da52;
+}
+.spnPrice{
+    text-decoration: line-through;
+    margin-right: 55px;
+}
+.spnPriceWithDiscount{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}

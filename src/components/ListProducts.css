@@ -1,0 +1,21 @@
+.dvContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 336px;
+}
+
+.dvContainer .dvimage {
+  width: 150px;
+}
+
+.dvContainer .dvimage img {
+  width: 100%;
+  height: auto;
+}
+
+.dvContainer .dvProductName p {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}/*# sourceMappingURL=ListProducts.css.map */
