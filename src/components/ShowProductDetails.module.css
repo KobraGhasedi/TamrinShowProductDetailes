@@ -1,25 +1,26 @@
 .dvContainerDetails{
-    width: 500px;
+    flex-basis: 70%;
     direction: rtl;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 357px;
 }
 .dvimageDetails{
-    width: 200px;
+    flex-basis: 30%;
 }
 .dvimageDetails img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
-.dvProductNameDetails{
-
-}
-.dvProductNameDetails p{
+.Name{
     font-size: 19px;
     font-weight: 500;
-    color: #52da52;
+    color: #52da52; 
+}
+.dvProductNameDetails .Description{
+    font-size: 19px;
+    color: #0e200e;
 }
 .spnPrice{
     text-decoration: line-through;
